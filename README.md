@@ -11,6 +11,12 @@ Figure shows that since the installation of automated speed cameras in parks and
 
 Per Chicago Tribune [[Ref 4]](http://apps.chicagotribune.com/news/local/chicago-speed-camera-tickets/cameras/4909-n-cicero-ave/), “the 146 cameras placed around 61 parks and schools have generated more than $81 million in tickets through Sept. 1, 2015.” Although more recent data on revenue earned could not be found, but it is clear that revenue earned through the speed camera program is a significant source of income that the City has planned to use for the causes mentioned above [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html). The trendline and forecast curve also provides insights to the Mayor and his team that, with increased awareness and with improved efficiency with ticketing system, the revenue amount is supposed to decrease in future and the City should design its future policies regarding children’s safety program taking this trend into account.  
 
+**Zone Type**| **Cameras**| **Camera days** | **Violations**
+-------------------- | :----------:  | :----------:  | :----------: 
+Park |84 | 130,283 | 4,217,248
+School|78 | 54,527 | 1,021,624
+
+
 
 <p align="center">
 <img src="Violationsperdaybyweek.JPG" alt="Trend of Violations" width="800">
