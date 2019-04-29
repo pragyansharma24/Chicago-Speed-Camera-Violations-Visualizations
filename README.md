@@ -22,11 +22,11 @@ Per Chicago Tribune [[Ref 4]](http://apps.chicagotribune.com/news/local/chicago-
 Based on the results in Figure 1, we see that the total number of violations is decreasing at a rate of 4.43 per day. The trendline also provides insights for the Mayor and his team that, with increased awareness and with improved efficiency with the ticketing system, the revenue amount is supposed to decrease in future and the City should design its future policies regarding children’s safety program taking this trend into account.  
 
 
-## Improvement in Violation Policy - School Zone Violation in Summer Months
+## School Zone Violation in Summer Months
 
-Online article [[Ref 5]](https://www.chicagotribune.com/news/watchdog/ct-speed-camera-bad-tickets-met-20151117-story.html) titled “Emanuel's Speed Cameras Issue $2.4 Million in Bad Tickets” describes loopholes in Chicago’s speed camera program. In this article, author descibes instances when tickets given to violators were not legal per City’s own rules. For the present analysis, I do not have access to all the data (e.g. time when ticket issued, park or school operating hours) needed to analyze these instances, but it is possible to analyze and focus on one of them, i.e. the violations that took place near school zones in summer months of June-August. Per article, “More than 62,000 school zone tickets were issued over the summer months when school activity is often so limited that drivers are left to guess whether school is in session or not. The law says tickets can be issued only on school days, typically defined as during the regular school year.”
+Online article [[Ref 5]](https://www.chicagotribune.com/news/watchdog/ct-speed-camera-bad-tickets-met-20151117-story.html) titled “Emanuel's Speed Cameras Issue $2.4 Million in Bad Tickets” describes loopholes in Chicago’s speed camera program. In this article, author describes instances when tickets given to violators were not legal per City’s own rules. For the present analysis, I do not have access to all the data (e.g. time when ticket issued, park or school operating hours) needed to analyze these instances, but it is possible to analyze and focus on one of them, i.e. the violations that took place near school zones in summer months of June-August. Per the article, “More than 62,000 school zone tickets were issued over the summer months when school activity is often so limited that drivers are left to guess whether the school is in session or not. The law says tickets can be issued only on school days, typically defined as during the regular school year.”
 
-Per speed camera guidelines provided in [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html) and using the violations data, first it is confirmed that the speed cameras are installed either in Park Zones or in School Zones, identified by the City of Chicago. For the present analysis, to identify if a particular camera belongs to a School Zone or Park Zone, I used data available from [[Ref 5]](https://www.chicagotribune.com/news/watchdog/ct-speed-camera-bad-tickets-met-20151117-story.html). The raw data is in PDF format and was converted to CSV data. The data provides for each camera ID the nearby school or park name along with its address. The “name” strings that contains word “Park” were tagged as Park Zone cameras and the rest were tagged as “School”. A “Park-School” column was then added to the original violations data based on the camera ID.      
+Per speed camera guidelines provided in [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html) and using the violations data, first, it is confirmed that the speed cameras in our data are installed either in Park Zones or in School Zones, identified by the City of Chicago. To identify if a particular camera belongs to a School Zone or Park Zone, I used data available from [[Ref 5]](https://www.chicagotribune.com/news/watchdog/ct-speed-camera-bad-tickets-met-20151117-story.html). The raw data is in PDF format and was converted to CSV data. The data provides for each camera ID the nearby school or park name along with its address. The “name” strings that contain the word “Park” were tagged as Park Zone cameras and the rest were tagged as “School”. A “Park-School” column was then added to the original violations data based on the camera ID.  The table below shows number of cameras, total number of days when cameras were active and the total number of violations reported for both Park and School Zones.   
 
 **Zone Type**| **Cameras**| **Camera days** | **Violations**
 -------------------- | :----------:  | :----------:  | :----------: 
@@ -35,23 +35,25 @@ School|78 | 54,527 | 1,021,624
 
 Initial data exploration shows that Park Zone cameras are operating on all days (Monday-Friday) of a week, whereas School Zone cameras operate only on weekdays (Monday-Friday). No violations on Saturdays and Sundays were recorded by School Zone cameras. This information is also validated using the speed camera guidelines provided in [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html). Apart from Saturdays and Sundays, it is also observed from data exploration that school cameras are not operating on public holidays (e.g. July 4, December 25, January 1, etc.). This is not the case with park cameras as they also operate on holidays.
 
-In general schools in Chicago observe Summer break - Around 10–11 weeks, either from the end of May to mid-August, early June to late August, or the end of June to the day after Labor Day in early September. 
-Plots show that number of School Zone violations/traps are significantly low during the month of August. However, this is not the case for school zones in the month of July when also schools remain closed. There is in accordance with the summer month instances reported in the article. 
-
-For previous Data Exploration assignment, I used the following Figure that compares the Number of Camera Days vs the Number of Total Violations for both School and Park Zones Combined. Number of Camera Days provides a measure of when cameras were active. For example, in the month of August, City of Chicago puts less number of camera traps in comparison to other months. This gave me an idea that it is probably due to the School Zone policy of the City that School Zone cameras did not record violations or were inactive when schools were closed. In general, schools have summer break in the period Mid June - End of August. Therefore, for a better picture, I partitioned data into two categories for final analysis. 
+For previous Data Exploration assignment, I used Figure 2 to show a comparison between the Number of Camera Days vs the Number of Total Violations for both School and Park Zones combined. Number of Camera Days provides a measure of when cameras were active. For example, in the month of August, the City of Chicago puts less number of camera traps in comparison to that for other months.  
 
 <p align="center">
 <img src="ComparisionRecordsvsViolations.JPG" alt="ComparisionRecordsvsViolations" width="800">
 </p>
+<p align="center">
+  <b>Figure 2: Total Violations and  Camera Record Days Year</b>
+<p>
 
-### Final Visual
+This gave me an idea that it is probably due to the School Zone policy of the City that School Zone cameras did not record violations or were not operational when schools were closed. In general, schools have summer break in the period Mid June - End of August. Therefore, for a better understanding, I partitioned the data into two categories for final analysis.
 
 <p align="center">
 <img src="CameraRecordDaysSafetyZone.JPG" alt="CameraRecordDaysSafetyZone" width="800">
 </p>
-
-
-With this visual, we want to send a message to Mayor Rahm Emanuel that action should be taken to correct this illegal violation distribution during summer months. This will also decrease burden on ticket processing centers and on the courts hearing these appeals. Drivers in School Zones are also confused whether the cameras are operating or not and as a results average number of tickets in the month of July in School Zones are significantly high. People tend to assume that school cameras are not operating when schools are off. 
+<p align="center">
+  <b>Figure 3: Total Violations and  Camera Record Days by Safety Zone</b>
+<p>
+  
+With the visual in Figure 3, we want to send a message to Mayor Rahm Emanuel that action should be taken to correct this illegal violation distribution during summer months. This will also help in decreasing the burden on ticket processing centers and on the courts hearing illegal appeals. Drivers in School Zones are also confused whether the cameras are operating or not and as a results average number of tickets in the month of July in School Zones are significantly high. People tend to assume that school cameras are not operating when schools are off. 
 
 
 ## Safety Impact Analysis – Before and After Crashes
