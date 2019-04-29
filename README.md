@@ -35,7 +35,7 @@ School|78 | 54,527 | 1,021,624
 
 Initial data exploration shows that Park Zone cameras are operating on all days (Monday-Friday) of a week, whereas School Zone cameras operate only on weekdays (Monday-Friday). No violations on Saturdays and Sundays were recorded by School Zone cameras. This information is also validated using the speed camera guidelines provided in [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html). Apart from Saturdays and Sundays, it is also observed from data exploration that school cameras are not operating on public holidays (e.g. July 4, December 25, January 1, etc.). This is not the case with park cameras as they also operate on holidays.
 
-For previous Data Exploration assignment, I used Figure 2 to show a comparison between the Number of Camera Days vs the Number of Total Violations for both School and Park Zones combined. Number of Camera Days provides a measure of when cameras were active. For example, in the month of August, the City of Chicago puts less number of camera traps in comparison to that for other months.  
+For previous Data Exploration assignment, I used Figure 2 to show a comparison between the Number of Camera Days and the Number of Total Violations for both School and Park Zones combined. Number of Camera Days provides a measure of when cameras were active. For example, in the month of August, the City of Chicago puts less number of camera traps in comparison to that for other months.  
 
 <p align="center">
 <img src="ComparisionRecordsvsViolations.JPG" alt="ComparisionRecordsvsViolations" width="800">
