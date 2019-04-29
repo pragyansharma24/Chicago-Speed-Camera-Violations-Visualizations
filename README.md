@@ -78,6 +78,12 @@ Since the City of Chicago has reported findings for “Serious Fatal” and “B
 <p>
 Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes
 
+## Summary and Conclusions
+1. Three final visuals are shown in Figure 1, Figure 3 and Figure 4.
+2. Trendline visual shows decline in total number of violations. This will also lead to revenue loss for the City in future, and therefore City should account for the loss in future policy making. 
+3. There are some loopholes in the way cameras in School Zones operate in summer months. It is clear from the analysis that, in comparison to August, lot more cameras are operational in July while schools are closed in both July and August.  
+4. Safety impact analysis using crash data shows that some cameras that report significantly high number of violations have not actually contributed towards reducing number of "Serious Fatal" and "Bicycle Pedestrian "  type crashes.  The City should investigate further to make these cameras more effective. 
+
 
 ## References
 
