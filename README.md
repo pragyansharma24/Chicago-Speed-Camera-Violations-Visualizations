@@ -10,17 +10,12 @@ Figure shows that since the installation of automated speed cameras in parks and
 2. Second, policies related to speed camera violations have been changed over the years by the government after people complained about tickets they received, claiming violations were not legal.  For example, per [[Ref 3]](https://www.illinoispolicy.org/390000-drivers-set-to-receive-refunds-for-red-light-and-speed-camera-tickets/), around 390,000 drivers were set to receive refunds as a result of a lawsuit. In addition, removal of cameras at some locations, and change in policies regarding violation tickets to make the program more efficient, may also have contributed to decline in the number of tickets. 
 3. Per Chicago Tribune [[Ref 4]](http://apps.chicagotribune.com/news/local/chicago-speed-camera-tickets/cameras/4909-n-cicero-ave/), “the 146 cameras placed around 61 parks and schools have generated more than $81 million in tickets through Sept. 1, 2015.” Although more recent data on revenue earned could not be found, but it is clear that revenue earned through the speed camera program is a significant source of income that the City has planned to use for the causes mentioned above [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html). The trendline and forecast curve also provides insights to the Mayor and his team that, with increased awareness and with improved efficiency with ticketing system, the revenue amount is supposed to decrease in future and the City should design its future policies regarding children’s safety program taking this trend into account.  
 
-<p align="center">
-<img src="/images/Viz5_Against.png" alt="Against Global Warming" width="600">
-</p>
-
-
 
 ##
 
 
 <p align="center">
-<img src="CrashesandViolations.JPG" alt="CrashesandViolations" width="600">
+<img src="CrashesandViolations.JPG" alt="CrashesandViolations" width="800">
 </p>
 
 
