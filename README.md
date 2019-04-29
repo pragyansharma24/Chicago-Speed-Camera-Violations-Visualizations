@@ -24,7 +24,7 @@ To Add ::    ------------------ Violations 4.43 per day
 
 
 <p align="center">
-<img src="Violationsperdaybyweek.JPG" alt="Violationsperdaybyweek" width="800">
+<img src="ComparisionRecordsvsViolations.JPG" alt="ComparisionRecordsvsViolations" width="800">
 </p>
 
 
