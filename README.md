@@ -76,7 +76,7 @@ Since the City of Chicago has reported findings for “Serious Fatal” and “B
 <p align="center">
   <b>Figure 4: Top 10 Locations by Violations - Safety Impact Analysis using Crash Data</b>
 <p>
-[Link](https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes)
+Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes
 
 
 ## References
@@ -88,4 +88,3 @@ Since the City of Chicago has reported findings for “Serious Fatal” and “B
 * Ref 5: https://www.chicagotribune.com/news/watchdog/ct-speed-camera-bad-tickets-met-20151117-story.html
 * Ref 6: https://www.chicago.gov/content/dam/city/depts/cdot/CSZ/ASE_CrashAnalysisWriteUp_10_10_18.pdf
 * Data Source: https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4
-* Link: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes
