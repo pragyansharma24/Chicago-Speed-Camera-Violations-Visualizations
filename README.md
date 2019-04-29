@@ -69,7 +69,7 @@ Since the City of Chicago has reported findings for “Serious Fatal” and “B
 
 
 <p align="center">
-<img src="CrashesandViolations.JPG" alt="CrashesandViolations" width="800">
+<img src="CrashesandViolations3.JPG" alt="CrashesandViolations" width="800">
 </p>
 <p align="center">
   <b>Figure 4: Top 10 Locations by Violations - Safety Impact Analysis using Crash Data</b>
