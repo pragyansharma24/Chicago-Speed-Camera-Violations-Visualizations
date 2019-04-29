@@ -55,8 +55,7 @@ This gave me an idea that it is probably due to the School Zone policy of the Ci
 <p align="center">
   <b>Figure 3: Total Violations and  Camera Record Days by Safety Zone</b>
 <p>
-[Link_for_Tableau_Public]
-(https://public.tableau.com/profile/pragyan.sharma#!/vizhome/SppedCameraViolations_CityofChicago_Report/Dashboard)
+[Link](https://public.tableau.com/profile/pragyan.sharma#!/vizhome/SppedCameraViolations_CityofChicago_Report/Dashboard)
 
 With the visual in Figure 3, we want to send a message to Mayor Rahm Emanuel that action should be taken to correct this illegal ticket distribution during summer months. This will also help in decreasing the burden on ticket processing centers and on the courts hearing these appeals. Drivers in School Zones are also confused whether the cameras are operating or not and as a results average number of tickets in the month of July in School Zones are significantly high. People tend to assume that school cameras are not operating when schools are off. 
 
