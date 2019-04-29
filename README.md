@@ -16,14 +16,6 @@ Per Chicago Tribune [[Ref 4]](http://apps.chicagotribune.com/news/local/chicago-
 <img src="Violationsperdaybyweek.JPG" alt="Trend of Violations" width="800">
 </p>
 
-<p align="center">
-<img src="Violationsperdaybyweek.JPG" alt="Trend of Violations" width="800">
-</p>
-
-
-
-
-
 
 According to the trendline we see that the number violations is decreasing at the rate of 4.43 per day. The trendline also provides insights to the Mayor and his team that, with increased awareness and with improved efficiency with ticketing system, the revenue amount is supposed to decrease in future and the City should design its future policies regarding children’s safety program taking this trend into account.  
 
