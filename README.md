@@ -78,6 +78,13 @@ Since the City of Chicago has reported findings for “Serious Fatal” and “B
 <p>
 Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes
 
+## Dashboards
+I have used data from multiple sources and the granularity for both the datasets is different, so it was convenient for me to create two separate dashboards, otherwise I might have lost data in merging or joining in tableau.
+Dashboard 1: SpeedCameraViolations_CityofChicago 
+https://public.tableau.com/profile/pragyan.sharma#!/vizhome/SppedCameraViolations_CityofChicago_Report/Dashboard
+Dashboard 2: ChicagoSpeedCameraViolationsandCrashes
+https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes
+
 ## Summary and Conclusions
 1. Three final visuals are shown in Figure 1, Figure 3 and Figure 4.
 2. Trendline visual shows decline in total number of violations. This will also lead to revenue loss for the City in future, and therefore City should account for the loss in future policy making. 
