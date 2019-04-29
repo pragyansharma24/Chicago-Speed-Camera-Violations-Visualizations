@@ -74,7 +74,7 @@ Since the City of Chicago has reported findings for “Serious Fatal” and “B
 <p align="center">
   <b>Figure 4: Top 10 Locations by Violations - Safety Impact Analysis using Crash Data</b>
 <p>
-[Link for Tableau Public](https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes)
+[Link_for_Tableau_Public](https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes)
   
 Final visual shows change in the number of “Serious Fatal” and “Bicycle Pedestrian” type crashes for top 20 speed camera violation locations. Results show a mixed picture. There may be an overall decrease in crashes for top 20 locations, but some of these locations are not showing any improvement in terms of reducing crashes. Therefore, it is important for the City of Chicago to focus on the camera locations that are recording a lot of violations but not solving the actual purpose for which they have been installed. 
 After experimenting with different chart types, I have decided to use “bar” charts as they provide a clear picture in this case without creating distractions. Line plots in this case create clutter and are difficult to apprehend for this type of data.  
