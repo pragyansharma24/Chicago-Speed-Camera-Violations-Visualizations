@@ -19,6 +19,13 @@ Per Chicago Tribune [[Ref 4]](http://apps.chicagotribune.com/news/local/chicago-
 To Add ::    ------------------ Violations 4.43 per day 
 
 
+#2
+
+
+
+<p align="center">
+<img src="Violationsperdaybyweek.JPG" alt="Violationsperdaybyweek" width="800">
+</p>
 
 
 
