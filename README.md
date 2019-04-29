@@ -80,8 +80,10 @@ Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/Ch
 
 ## Dashboards
 I have used data from multiple sources and the granularity for both the datasets is different, so it was convenient for me to create two separate dashboards, otherwise I might have lost data in merging or joining in tableau.
+
 Dashboard 1: SpeedCameraViolations_CityofChicago 
 https://public.tableau.com/profile/pragyan.sharma#!/vizhome/SppedCameraViolations_CityofChicago_Report/Dashboard
+
 Dashboard 2: ChicagoSpeedCameraViolationsandCrashes
 https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes
 
