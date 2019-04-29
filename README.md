@@ -41,10 +41,11 @@ For previous Data Exploration assignment, I used Figure 2 to show a comparison b
 <img src="ComparisionRecordsvsViolations.JPG" alt="ComparisionRecordsvsViolations" width="800">
 </p>
 <p align="center">
-  <b>Figure 2: Total Violations and  Camera Record Days Year</b>
+  <b>Figure 2: Total Violations and  Camera Record Days by Year</b>
 <p>
 
-This gave me an idea that it is probably due to the School Zone policy of the City that School Zone cameras did not record violations or were not operational when schools were closed. In general, schools have summer break in the period Mid June - End of August. Therefore, for a better understanding, I partitioned the data into two categories for final analysis.
+This gave me an idea that it is probably due to the School Zone policy of the City that School Zone cameras did not record violations or were not operational when schools were closed. In general, schools have summer break in the period Mid June - End of August. Therefore, for a better understanding, I partitioned the data into two categories for final analysis. Figure 3 confirms that the low number of camera records in the month of August for schools is due to the low number of cameras that were operational in School Zones. However, this is not the case in Park Zone cameras. More importantly, for school zone cameras, it can be noticed that significatly higher number of cameras were operational in July than in August. This was likely an error in the system because one would expect same number of operational cameras in August and July in school zones. This error was probably the reason for illegal tickets given to the violators in the summer months in school zones as discussed above. 
+
 
 <p align="center">
 <img src="CameraRecordDaysSafetyZone.JPG" alt="CameraRecordDaysSafetyZone" width="800">
