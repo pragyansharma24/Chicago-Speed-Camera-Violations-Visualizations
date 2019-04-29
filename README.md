@@ -63,9 +63,9 @@ The City of Chicago conducted “Safety Impact Analysis of Speed Cameras Program
 * Fatal or serious injury crashes decreased 9% near speed cameras, compared to 6% increase citywide.
 * Overall crashes have increased 1% in the automated speed enforcement locations compared to a 21% increase in crashes citywide from 2012-13 to 2014-16 period.
 
-These findings create a positive sentiment regarding the speed camera program that it has worked and is contributing towards reducing the number of crashes near the speed camera locations. However, I noticed that these findings were based on crash incidents from all speed camera locations, and they may not provide a true picture for the cameras that are reporting significantly high number of violations. To analyze this, I downloaded and processed the 2-year crash data (2015-2016) given in [Ref 6]. Crash data includes, for each Camera ID, number of crashes in categories “Total Crashes”, “Serious Fatal”, “Bicycle Pedestrian”, “Speed Related”, and “Youth Related” for all speed camera locations. Processing of data was a bit tricky, so I have a written a python script which is also attached with the GitHub project. 
+These findings create a positive sentiment regarding the speed camera program that it has worked and is contributing towards reducing the number of crashes near the speed camera locations. However, I noticed that these findings were based on crash incidents from all speed camera locations, and they may not provide a true picture for the cameras that are reporting significantly high number of violations. To analyze this, I downloaded and processed the 2-year crash data (2015-2016) given in [Ref 6]. Crash data includes, for each Camera ID, number of crashes in categories “Total Crashes”, “Serious Fatal”, “Bicycle Pedestrian”, “Speed Related”, and “Youth Related” for all speed camera locations. Processing of data was done in Python, and I have attached the python script  with the GitHub project. 
 
-Since the City of Chicago has reported findings for “Serious Fatal” and “Bicycle Pedestrian” type instances only, we have focused on these two categories for the present analysis. 
+Since the City of Chicago has reported findings for “Serious Fatal” and “Bicycle Pedestrian” type instances only, we have focused on these two categories for the present analysis. Figure 4 shows the change in the number of “Serious Fatal” and “Bicycle Pedestrian” type crashes for the top 20 speed camera violation locations. Results show a mixed picture. There may be an overall decrease in crashes for top 20 locations, but some of these locations are not showing any improvement in terms of reduction in crashes. Therefore, it is important for the City of Chicago to further investigate the camera locations that are recording a significantly high number of violations but, in fact, cameras there are not solving the actual purpose for which they have been installed. (After experimenting with different chart types, I have decided to use “bar” charts as they provide a clear picture in this case without creating distractions. Line plots in this case create clutter and are difficult to apprehend for this type of data.)
 
 
 <p align="center">
@@ -76,9 +76,7 @@ Since the City of Chicago has reported findings for “Serious Fatal” and “B
 <p>
 [Link_for_Tableau_Public](https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes)
   
-Final visual shows change in the number of “Serious Fatal” and “Bicycle Pedestrian” type crashes for top 20 speed camera violation locations. Results show a mixed picture. There may be an overall decrease in crashes for top 20 locations, but some of these locations are not showing any improvement in terms of reducing crashes. Therefore, it is important for the City of Chicago to focus on the camera locations that are recording a lot of violations but not solving the actual purpose for which they have been installed. 
-After experimenting with different chart types, I have decided to use “bar” charts as they provide a clear picture in this case without creating distractions. Line plots in this case create clutter and are difficult to apprehend for this type of data.  
-
+ 
 
 
 ## References
