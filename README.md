@@ -36,9 +36,18 @@ Initial data exploration shows that Park Zone cameras are operating on all days 
 In general schools in Chicago observe Summer break - Around 10–11 weeks, either from the end of May to mid-August, early June to late August, or the end of June to the day after Labor Day in early September. 
 Plots show that number of School Zone violations/traps are significantly low during the month of August. However, this is not the case for school zones in the month of July when also schools remain closed. There is in accordance with the summer month instances reported in the article. 
 
+For previous Data Exploration assignment, I used the following Figure that compares the Number of Camera Days vs the Number of Total Violations for both School and Park Zones Combined. Number of Camera Days provides a measure of when cameras were active. For example, in the month of August, City of Chicago puts less number of camera traps in comparison to other months. This gave me an idea that it is probably due to the School Zone policy of the City that School Zone cameras did not record violations or were inactive when schools were closed. In general, schools have summer break in the period Mid June - End of August. Therefore, for a better picture, I partitioned data into two categories for final analysis. 
+
 <p align="center">
 <img src="ComparisionRecordsvsViolations.JPG" alt="ComparisionRecordsvsViolations" width="800">
 </p>
+
+### Final Visual
+
+<p align="center">
+<img src="CameraRecordDaysSafetyZone.JPG" alt="CameraRecordDaysSafetyZone" width="800">
+</p>
+
 
 With this visual, we want to send a message to Mayor Rahm Emanuel that action should be taken to correct this illegal violation distribution during summer months. This will also decrease burden on ticket processing centers and on the courts hearing these appeals. Drivers in School Zones are also confused whether the cameras are operating or not and as a results average number of tickets in the month of July in School Zones are significantly high. People tend to assume that school cameras are not operating when schools are off. 
 
