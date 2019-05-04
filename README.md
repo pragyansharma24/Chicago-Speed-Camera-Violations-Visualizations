@@ -3,16 +3,16 @@
 Chicago experiences a high number of crashes between vehicles and pedestrians, about 25% of which involve children. Automated Speed Camera Program is a part of Children’s Safety Zone Program. According to the City of Chicago [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html), “the Children’s Safety Zone Program protects children and other pedestrians by reminding motorists to slow down and obey speed laws – especially in school and park zones.” Safety zones are designated as a 660-foot boundary around any parks or schools. Per the City of Chicago [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html), “revenue collected from the program will be utilized for programs that enhance the safety of children, including afterschool, anti-violence and jobs programs; crossing guards and police officers around schools; and infrastructure improvements, such as signs, crosswalk markings and other traffic safety improvements.”
 
 ## Data Sources
-<i>Speed Camera Violations</i>: Contains speed violations recored by automated speed cameras. Data used in the present analysis is obtained from the City of Chicago Data Portal (LINK).
-<i>Safety Zone Data</i>: Contains name and address of the school or park near which a camera is installed. Safety zone is defined as the area in the 1/8th mile radius of a school or park. Data used in the present analysis is obtained from the link here.
-<i>Vehicle Crash Data</i>: Contains crash statistics at city-wide locations and at the locations in safety zones where speed cameras are installed. Data used in the present analysis is obtained from the link here. 
+<ib>Speed Camera Violations</ib>: Contains speed violations recored by automated speed cameras. Data used in the present analysis is obtained from the City of Chicago Data Portal (LINK).
+<ib>Safety Zone Data</ib>: Contains name and address of the school or park near which a camera is installed. Safety zone is defined as the area in the 1/8th mile radius of a school or park. Data used in the present analysis is obtained from the link here.
+<ib>Vehicle Crash Data</ib>: Contains crash statistics at city-wide locations and at the locations in safety zones where speed cameras are installed. Data used in the present analysis is obtained from the link here. 
 
 ## Data Description
-<i>Number of Camera Days</i>: Each row of the record in Speed Camera Violations data represents a "Camera Day". A camera on a given "Camera Day" may have multiple violation records.    
-<i>Violations</i>: Violations are recordeed by each camera on every "Camera Day".
-<i>Violation Date</i>: Date corresponding to a "Camera Day" for which violations are provided. Note that exact time of violation is not provided in the data. 
-<i>Camera Location</i>: Camera location is the location where camera is located; it is specified in terms of Latitude/Longitudes or in State Plane Coordinate System.
-<i>Safety Zone</i>: Safety zone is defined as the area in the 1/8th mile radius of a school or park. There are only two possible types of Safety Zones: School Zone and Park Zone. 
+<ib>Number of Camera Days</ib>: Each row of the record in Speed Camera Violations data represents a "Camera Day". A camera on a given "Camera Day" may have multiple violation records.    
+<ib>Violations</ib>: Violations are recordeed by each camera on every "Camera Day".
+<ib>Violation Date</ib>: Date corresponding to a "Camera Day" for which violations are provided. Note that exact time of violation is not provided in the data. 
+<ib>Camera Location</ib>: Camera location is the location where camera is located; it is specified in terms of Latitude/Longitudes or in State Plane Coordinate System.
+<ib>Safety Zone</ib>: Safety zone is defined as the area in the 1/8th mile radius of a school or park. There are only two possible types of Safety Zones: School Zone and Park Zone. 
 
 ## General Speed Violations Rules
 
