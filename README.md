@@ -3,8 +3,10 @@
 Chicago experiences a high number of crashes between vehicles and pedestrians, about 25% of which involve children. Automated Speed Camera Program is a part of Children’s Safety Zone Program. According to the City of Chicago [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html), “the Children’s Safety Zone Program protects children and other pedestrians by reminding motorists to slow down and obey speed laws – especially in school and park zones.” Safety zones are designated as a 660-foot boundary around any parks or schools. Per the City of Chicago [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html), “revenue collected from the program will be utilized for programs that enhance the safety of children, including afterschool, anti-violence and jobs programs; crossing guards and police officers around schools; and infrastructure improvements, such as signs, crosswalk markings and other traffic safety improvements.”
 
 ## Data Sources and Description
-<b>Number of Camera Days</b>: Each line of the record represents a "Camera Day". A camera on a given "Camera Day" may have multiple violation records.    
-
+<i>Number of Camera Days</i>: Each row of the record in Speed Camera Violations data represents a "Camera Day". A camera on a given "Camera Day" may have multiple violation records.    
+<i>Violations</i>: Violations are recordeed by each camera on every "Camera Day".
+<i>Violations</i>: Camera location is the location where camera is located; it is specified in terms of Latitude/Longitudes or in State Plane Coordinate System. 
+<i>Violations</i>:
 
 ## Trendline for Total Violations
 To understand the trend of total violations in the Safety Zones around Chicago, we have used data from the source [here](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4).   
