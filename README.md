@@ -113,10 +113,9 @@ The City of Chicago conducted “Safety Impact Analysis of Speed Cameras Program
 * Fatal or serious injury crashes decreased 9% near speed cameras, compared to 6% increase city-wide.
 * Overall crashes have increased 1% in the automated speed enforcement locations compared to a 21% increase in crashes citywide from 2012-13 to 2015-16 period.
 
-These findings create a positive sentiment regarding the speed camera program that it has worked and is contributing towards reducing the number of crashes near the speed camera locations. However, it is noticed that these findings were based on crash incidents reported at all speed camera locations, and they may not provide a true picture for the cameras that are reporting significantly high number of violations. To analyze this, 2-year crash data (2015-2016) was downloaded from the [Ref 6]. Crash data includes, for each Camera ID and for all camera location, number of crashes divided in categories “Total Crashes”, “Serious Fatal”, “Bicycle Pedestrian”, “Speed Related”, and “Youth Related”. Data was processes in Python, and the Python Script is attached with the GitHub project. [script](Crash_Violation_Data_Merge_Code.ipynb). 
+These findings create a positive sentiment regarding the speed camera program that it has worked and is contributing towards reducing the number of crashes near the speed camera locations. However, it is noticed that these findings were based on crash incidents reported at all speed camera locations, and they may not provide a true picture for the cameras that are reporting significantly high number of violations. To analyze this, 2-year crash data (2015-2016) was downloaded from the [Ref 6]. Crash data includes, for each Camera ID and for all camera location, number of crashes divided in categories “Total Crashes”, “Serious Fatal”, “Bicycle Pedestrian”, “Speed Related”, and “Youth Related”. Data was processes in Python, and the Python [[Script]](Crash_Violation_Data_Merge_Code.ipynb) is attached with the GitHub project. 
 
-Since the City of Chicago has reported findings for “Serious Fatal” and “Bicycle Pedestrian” type instances only, we have focused on these two categories for the present analysis. Figure 4 shows the change in the number of “Serious Fatal” and “Bicycle Pedestrian” type crashes for the top 20 speed camera violation locations. Results show a mixed picture. There may be an overall decrease in crashes for top 20 locations, but some of these locations are not showing any improvement in terms of reduction in crashes. Therefore, it is important for the City of Chicago to further investigate the camera locations that are recording a significantly high number of violations but, in fact, cameras there are not solving the actual purpose for which they have been installed.
-
+Since the City of Chicago has reported findings for “Serious Fatal” and “Bicycle Pedestrian” type instances only, we have focused on these two categories for the present analysis. Figure 5 below shows the change in the number of “Serious Fatal” and “Bicycle Pedestrian” type crashes for speed camera locations sorted by total number of violations. Results show a mixed picture. There may be an overall decrease in crashes as reported by the City, but some of these locations are not showing any improvement in terms of reduction in crashes. Therefore, it is important for the City of Chicago to further investigate the camera locations that are recording a significantly high number of violations but, in fact, cameras there are not solving the actual purpose for which they have been installed.
 
 <p align="center">
 <img src="CrashesandViolations3.JPG" alt="CrashesandViolations" width="800">
@@ -128,7 +127,10 @@ Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/Ch
   
   
 **Basis for Chart Selection**
-After experimenting with different chart types, I have decided to use “bar” charts as they provide a clear picture in this case without creating distractions. Line plots in this case create clutter and are difficult to apprehend for this type of data.
+* Final visualization for the analysis is shown in Figure 5.
+* The color in the final-version is changed from Grey to Blue. This is done to make color scheme consistent for all visuals. In the final-version, blue color is used everywhere to show violations. 
+* After experimenting with different chart types, I have decided to use “bar” charts as they provide a clear picture in this case without creating distractions. Use of line plots in this case would create difficulty in apprehending this type of data.
+* Added interactive filter for users to select top N. Static to dynamic filter 
 
 ## Dashboards
 I have used data from multiple sources and the granularity for both the datasets is different, so it was convenient for me to create two separate dashboards, otherwise I might have lost data in merging or joining in tableau.
