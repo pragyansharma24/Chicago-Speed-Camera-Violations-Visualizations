@@ -94,12 +94,16 @@ Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/Sp
 With the visual in Figure 3, we want to send a message to Mayor Rahm Emanuel that action should be taken to correct this illegal ticket distribution during summer months. This will also help in decreasing the burden on ticket processing centers and on the courts hearing these appeals. Drivers in School Zones are also confused whether the cameras are operating or not and as a results average number of tickets in the month of July in School Zones are significantly high. People tend to assume that school cameras are not operating when schools are off. 
 
 **Basis for Chart Selection**
-why filter: A filter for school and park has been added to make it easier for the end user to view if they are focused on one zone type.
-Camera days - number of records was not very clear so a label ias added to make it clear to the end user
-why dual axis chart - I wanted to represent/ find out the reson why August and July  have low sum of violaions but high average violations. This graph clearly indicated that in school the camera are not operational.
-box plot in column - comarision bewtween (park and school) as well 
-
-
+* The color is changed to Blue to keep it consistant with the violations.
+* why dual axis chart - I wanted to represent/ find out the reson why August and July  have low sum of violaions but high average violations. This graph clearly indicated that in school the camera are not operational.
+* Stacked paralley for direct comparison
+* Why both park and school are present - wanted to show the comparision between the 
+* why filter: A filter for school and park has been added to make it easier for the end user to view if they are focused on one zone type. Although the main idea was abouyt having filter gave
+* Operational Camera days - number of records was not very clear so a label ias added to make it clear to the end user
+**Message to Mayor**
+1. 
+2. 
+3. 
 
 ## Safety Impact Analysis – Before and After Crashes
 
