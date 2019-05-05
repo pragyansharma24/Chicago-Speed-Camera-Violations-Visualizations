@@ -9,16 +9,11 @@ Chicago experiences a high number of crashes between vehicles and pedestrians, a
 
 ## Data Description  
 
-**Number of Camera Days:** Each row of the record in Speed Camera Violations data represents a "Camera Day". A camera on a given "Camera Day" may have multiple violation records. 
- It is possible that a camera is not opertational on some days, e.g. school cameras are not operational on weekends.     
-
-**Violations:** Each record (or row) in the Speed Camera Violations dataset represents the number of violations captured by an active camera on a certain date.
-
-**Violation Date:** Date corresponding to a "Camera Day" for which violations are provided. Note that exact time of violation is not provided in the data. 
-
-**Camera Location:** Camera location is the location where camera is located; it is specified in terms of Latitude/Longitudes or in State Plane Coordinate System.
-
-**Safety Zone:** Safety zone is defined as the area in the 1/8th mile radius of a school or park. There are only two possible types of Safety Zones: School Zone and Park Zone. 
+**Operational Camera Day:** Each record (or row) in Speed Camera Violations data is for a certain day when a camera is operational.   It is possible that a camera is not opertational on some days, e.g. school cameras are not operational on weekends. </br>
+**Violations:** Each record (or row) in the Speed Camera Violations dataset has the number of violations captured by a camera on a particular Operational Camera Day. A camera on a given Operational Camera Day may have multiple violations.</br>
+**Violation Date:** Date corresponding to an Operational Camera Day for which violations are provided. Note that exact time of violation is not provided in the data. </br>
+**Camera Location:** Camera location is the location where camera is located; it is specified in terms of Latitude/Longitudes or in State Plane Coordinate System. </br>
+**Safety Zone:** Safety zone is defined as the area in the 1/8th mile radius of a school or park. There are only two possible types of Safety Zones: School Zone and Park Zone. </br>
 
 
 ## Trendline for Total Violations
