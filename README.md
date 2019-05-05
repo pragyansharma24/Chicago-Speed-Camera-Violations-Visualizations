@@ -14,6 +14,8 @@ Chicago experiences a high number of crashes between vehicles and pedestrians, a
 **Violation Date:** Date corresponding to an Operational Camera Day for which violations are provided. Note that exact time of violation is not provided in the data. </br>
 **Camera Location:** Camera location is the location where camera is located; it is specified in terms of Latitude/Longitudes or in State Plane Coordinate System. </br>
 **Safety Zone:** Safety zone is defined as the area in the 1/8th mile radius of a school or park. There are only two possible types of Safety Zones: School Zone and Park Zone. </br>
+**Address:** Address of the location of the speed enforcement camera(s). There may be more than one camera at each address.
+**Camera ID:** A unique ID associated with the physical camera at each location. There may be more than one camera at a physical address.
 
 
 ## Trendline for Total Violations
