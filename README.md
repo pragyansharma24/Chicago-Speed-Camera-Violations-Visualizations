@@ -64,13 +64,20 @@ School|78 | 54,527 | 1,021,624
 
 Initial data exploration shows that Park Zone cameras are operating on all seven days of a week, whereas School Zone cameras operate only on weekdays (Monday-Friday). No violations on Saturdays and Sundays were recorded by School Zone cameras. This information is also validated using the speed camera guidelines provided in [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html). Moreover, apart from weekends, it is also found from data exploration that School Zone cameras do not operte on public holidays (e.g. July 4, December 25, January 1, etc.). Figure 2 below shows box-plot diagrams for average speed violations in Park and School Zones. Outlier days recording high number violations can be clearly seen on box-plot diagrams. Park Zones camera record significantly high number of violations on public holidays (e.g. July 4, December 25, January 1, etc.) but School Zone cameras do not operate on these holidays. It is also observed that School Zone cameras have high violations recorded on Labor Day (September 2 or 3) which is probably an anomaly in the Speed Camera System. Per City regulations, School Zone camera should not be operational on holidays. 
 
+<p align="center">
+<img src="ViolationsonHolidays.JPG" alt="ViolationsonHolidays" width="800">
+</p>
+<p align="center">
+  <b>Figure 2: Average Violations per Camera per Day</b>
+<p>
+
 For previous Data Exploration assignment, I used Figure 2 to show a comparison between the Number of Camera Days and the Number of Total Violations for both School and Park Zones combined. Number of Camera Days provides a measure of when cameras were active. For example, in the month of August, the City of Chicago puts less number of camera traps in comparison to that for other months.  
 
 <p align="center">
 <img src="ComparisionRecordsvsViolations.JPG" alt="ComparisionRecordsvsViolations" width="800">
 </p>
 <p align="center">
-  <b>Figure 2: Total Violations and  Camera Record Days by Year</b>
+  <b>Figure 3: Total Violations and  Camera Record Days by Year</b>
 <p>
 
 This gave me an idea that it is probably due to the School Zone policy of the City that School Zone cameras did not record violations or were not operational when schools were closed. In general, schools have summer break in the period Mid June - End of August. Therefore, for a better understanding, I partitioned the data into two categories for final analysis. Figure 3 confirms that the low number of camera records in the month of August for schools is due to the low number of cameras that were operational in School Zones. However, this is not the case in Park Zone cameras. More importantly, for school zone cameras, it can be noticed that significatly higher number of cameras were operational in July than in August. This was likely an error in the system because one would expect same number of operational cameras in August and July in school zones. This error was probably the reason for illegal tickets given to the violators in the summer months in school zones as discussed above. 
