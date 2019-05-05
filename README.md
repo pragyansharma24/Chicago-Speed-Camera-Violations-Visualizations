@@ -8,6 +8,8 @@ Chicago experiences a high number of crashes between vehicles and pedestrians, a
 **Vehicle Crash Data:** Contains crash statistics at city-wide locations and at the locations in safety zones where speed cameras are installed. Data used in the present analysis is obtained from the link [[here]](https://www.chicago.gov/content/dam/city/depts/cdot/CSZ/ASE_CrashAnalysisWriteUp_10_10_18.pdf). 
 
 ## Data Description
+Each record in the Speed Camera Violations dataset represents the the number of violations captured by an active on a certain date. A lot of cameras are not opertational on some days.  
+
 **Number of Camera Days:** Each row of the record in Speed Camera Violations data represents a "Camera Day". A camera on a given "Camera Day" may have multiple violation records.    
 
 **Violations:** Violations are recordeed by each camera on every "Camera Day".
