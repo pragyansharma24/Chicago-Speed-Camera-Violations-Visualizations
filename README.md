@@ -15,7 +15,6 @@ Chicago experiences a high number of crashes between vehicles and pedestrians, a
 **Safety Zone:** Safety zone is defined as the area in the 1/8th mile radius of a school or park. There are only two possible types of Safety Zones: School Zone and Park Zone. 
 
 
-
 ## Trendline for Total Violations
 To understand the trend of total violations in the Safety Zones around Chicago, we have used data from the source [here](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4).   
 Figure 1 shows that since the installation of automated speed cameras in safety zones, total speed violations reported by all cameras are on the decline. In general, this can be attributed to two major factors: 
