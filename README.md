@@ -94,13 +94,13 @@ Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/Sp
 With the visual in Figure 4, we want to send a message to Mayor Rahm Emanuel that action should be taken to correct this illegal ticket distribution during summer months. This will also help in decreasing the burden on ticket processing centers and on the courts hearing the ticket appeals. Drivers in School Zones are also confused whether the cameras are operating or not and as a results average number of tickets in the month of July in School Zones are significantly high. People tend to assume that school cameras are not operating when schools are off. 
 
 **Basis for Chart Selection**
-* Final vesrion of the chart is shown in Figure 4.
-* The color in the final-version chart is changed from Brown to Blue. This is done to make color scheme consistent for all visuals. In the final-version, blue color is used everywhere to show violations. 
+* Final visualization for the analysis is shown in Figure 4.
+* The color in the final-version is changed from Brown to Blue. This is done to make color scheme consistent for all visuals. In the final-version, blue color is used everywhere to show violations. 
 * Dual-axis chart is preferred in this case. It helps in clearly showing the monthly variation of both Total Violations and Operational Camera Days using one simple plot. Left axis shows Total Violations and the right axis shows the number of days all cameras were operational (or Operational Camera Days). To avoid clutter, bar-type chart is used for only one variable and line chart was used for the second variable.  
-* Figure shows both School and Park Zone data. Zones were stacked horizontally for direct and easy comparison.
-* Colors for violations for both Park and School categories are kept same (Blue) for consistency. Choosing different colors does not really provide any benefit. It actually increases clutter due to extra legend item.
-* An interactive filter for  Zone Type is added so that the end-user can either look at one catagory (school or Park) or all catagories at a time.   
-* The varalbe name "Number of Records" is changed to "Operational Camera days" for more clarity. "Operational Camera days" variable is clearly defined in the "Data Description" section above.   
+* Figure shows both School and Park Zone data. Zones are stacked horizontally for direct and easy comparison.
+* Colors for violations for both Park and School Zones are kept same (Blue) for consistency. Choosing different colors does not really provide any benefit. It actually increases clutter due to extra legend item.
+* An interactive filter for  Zone Type is added so that the end-user can either look at one Zone Type (School or Park) or all Zone Types at a time.  
+* The variable name "Number of Records" is changed to "Operational Camera Days" for more clarity. "Operational Camera days" is clearly defined in the "Data Description" section above.   
 
 **Message to Mayor**
 1. 
