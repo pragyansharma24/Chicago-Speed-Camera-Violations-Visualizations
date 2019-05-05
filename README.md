@@ -95,13 +95,12 @@ With the visual in Figure 4, we want to send a message to Mayor Rahm Emanuel tha
 
 **Basis for Chart Selection**
 * The color in the final-version chart is changed from Brown to Blue. This is done to make color scheme consistent for all visuals. Blue color is used everywhere for total number of violations in final-version visuals. 
-* Dual-axis chart is preferred here. It makes it easy to compare Total violations and Operational Camera Days.
-This graph clearly indicated that in school the camera are not operational. One axis shows how many cameras are operational while other shows the total number of violations.
-* Stacked paralley for direct comparison
-* Colors for park and schol are same because no extra information was being added. Clutter due to extra legend.
-* Why both park and school are present - wanted to show the comparision between the 
-* why filter: A filter for school and park has been added to make it easier for the end user to view if they are focused on one zone type. Although the main idea was abouyt having filter gave
-* Operational Camera days - number of records was not very clear so a label ias added to make it clear to the end user
+* Dual-axis chart is preferred here. It helps in clearly showing the monthly variation of both Total Violations and Operational Camera Days using just one plot. Left axis shows total number of violations and the right axis shows the number of days all cameras were operational. 
+* Figure shows both School and Park Zone data. Zones were stacked horizontally for direct comparison.
+* Colors for violations for both Park and School categories are kept same for consistency. Choosing different colors does not really provide any benefit. It actually increases clutter due to extra legend item.
+* Interactive filter is added so that the end-user can either look at one catagory (school or Park) or all catagories at a time.   
+* A filter for school and park has been added to make it easier for the end user to view if they are focused on one zone type. Although the main idea was abouyt having filter gave
+* The varalbe name "Number of Records" is changed to "Operational Camera days" for more clarity. "Operational Camera days" variable is clearly defined in the "Data Description" section above.   
 
 **Message to Mayor**
 1. 
