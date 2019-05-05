@@ -3,9 +3,18 @@
 Chicago experiences a high number of crashes between vehicles and pedestrians, about 25% of which involve children. Automated Speed Camera Program is a part of Children’s Safety Zone Program. According to the City of Chicago [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html), “the Children’s Safety Zone Program protects children and other pedestrians by reminding motorists to slow down and obey speed laws – especially in school and park zones.” Safety zones are designated as a 660-foot boundary around any parks or schools. Per the City of Chicago [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html), “revenue collected from the program will be utilized for programs that enhance the safety of children, including afterschool, anti-violence and jobs programs; crossing guards and police officers around schools; and infrastructure improvements, such as signs, crosswalk markings and other traffic safety improvements.”
 
 ## Data Sources
-**Speed Camera Violations:** Contains speed violations recored by automated speed cameras. Data used in the present analysis is obtained from the City of Chicago Data Portal (LINK).
+**Speed Camera Violations:** Contains speed violations recored by automated speed cameras. Data used in the present analysis is obtained from the City of Chicago Data Portal [[link]](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4).
 **Safety Zone Data:** Contains name and address of the school or park near which a camera is installed. Safety zone is defined as the area in the 1/8th mile radius of a school or park. Data used in the present analysis is obtained from the link here.
 **Vehicle Crash Data:** Contains crash statistics at city-wide locations and at the locations in safety zones where speed cameras are installed. Data used in the present analysis is obtained from the link here. 
+
+## Data Description
+**Number of Camera Days:** Each row of the record in Speed Camera Violations data represents a "Camera Day". A camera on a given "Camera Day" may have multiple violation records.    
+**Violations:** Violations are recordeed by each camera on every "Camera Day".
+**Violation Date:** Date corresponding to a "Camera Day" for which violations are provided. Note that exact time of violation is not provided in the data. 
+**Camera Location:** Camera location is the location where camera is located; it is specified in terms of Latitude/Longitudes or in State Plane Coordinate System.
+**Safety Zone:** Safety zone is defined as the area in the 1/8th mile radius of a school or park. There are only two possible types of Safety Zones: School Zone and Park Zone. 
+
+
 
 ## Trendline for Total Violations
 To understand the trend of total violations in the Safety Zones around Chicago, we have used data from the source [here](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4).   
@@ -106,4 +115,3 @@ https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraVi
 * Ref 4: Chicago Tribune:  http://apps.chicagotribune.com/news/local/chicago-speed-camera-tickets/cameras/4909-n-cicero-ave/
 * Ref 5: https://www.chicagotribune.com/news/watchdog/ct-speed-camera-bad-tickets-met-20151117-story.html
 * Ref 6: https://www.chicago.gov/content/dam/city/depts/cdot/CSZ/ASE_CrashAnalysisWriteUp_10_10_18.pdf
-* Data Source: https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4
