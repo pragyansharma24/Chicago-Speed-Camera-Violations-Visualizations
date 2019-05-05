@@ -97,6 +97,7 @@ With the visual in Figure 3, we want to send a message to Mayor Rahm Emanuel tha
 * The color is changed to Blue to keep it consistant with the violations.
 * Why dual axis chart - I wanted to represent/ find out the reson why August and July  have low sum of violaions but high average violations. This graph clearly indicated that in school the camera are not operational. One axis shows how many cameras are operational while other shows the total number of violations.
 * Stacked paralley for direct comparison
+* Colors for park and schol are same because no extra information was being added. Clutter due to extra legend.
 * Why both park and school are present - wanted to show the comparision between the 
 * why filter: A filter for school and park has been added to make it easier for the end user to view if they are focused on one zone type. Although the main idea was abouyt having filter gave
 * Operational Camera days - number of records was not very clear so a label ias added to make it clear to the end user
