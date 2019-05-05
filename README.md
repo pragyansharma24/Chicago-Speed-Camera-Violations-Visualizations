@@ -55,7 +55,8 @@ Online article [[Ref 5]](https://www.chicagotribune.com/news/watchdog/ct-speed-c
 
 Per speed camera guidelines provided in [[Ref 1]](https://www.chicago.gov/city/en/depts/cdot/provdrs/automated_enforcement/news/2018/july/automated-speed-enforcement-cameras-to-be-activated-in-response-.html) and using the violations data, first, it is confirmed that the speed cameras are installed either in Park Zones or in School Zones, identified by the City of Chicago. To identify if a particular camera belongs to a School Zone or Park Zone, Safety Zone Data described above is used. The raw data is in PDF format and was converted to CSV data. The data provides for each camera ID the nearby school or park name along with its address. The “name” strings that contain the word “Park” were tagged as Park Zone cameras and the rest were tagged as School Zone cameras. A “Park-School” column was then added to the original violations data based on the camera ID. Table 1 below shows number of cameras, total number of days when cameras were active and the total number of violations reported for both Park and School Zones. Violations reported by Park Zone cameras is approximately 4 times higher than by School Zone cameras. Operational Camera Days are also much higher for Park Zone cameras.    
 
-  <b>Figure 2: Total Violations and  Camera Record Days by Year</b> </br>
+**Table 1: Statistics for Park and School Zone Cameras** </br>
+
 **Zone Type**| **Cameras**| **Operational Camera days** | **Violations**
 -------------------- | :----------:  | :----------:  | :----------: 
 Park |84 | 130,283 | 4,217,248
