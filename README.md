@@ -23,7 +23,7 @@ To understand the trend of total violations in the Safety Zones around Chicago, 
 2. Policies related to speed camera violations have been changed over the years by the government after people complained about tickets they received, claiming violations were not legal. For example, per [[Ref 3]](https://www.illinoispolicy.org/390000-drivers-set-to-receive-refunds-for-red-light-and-speed-camera-tickets/), around 390,000 drivers were set to receive refunds as a result of a lawsuit. Further, removal of cameras at some locations, and change in policies regarding violation tickets to make the program more efficient may also have contributed to the declining number of violations. 
 
 <p align="center">
-<img src="Violationsperdaybyweek.JPG" alt="Trend of Violations" width="800">
+<img src="Declining_Speed_Violations.JPG" alt="Trend of Violations" width="800">
 </p>
 <p align="center">
   <b>Figure 1: Trend of Total Weekly Violations</b>
