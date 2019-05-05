@@ -125,12 +125,17 @@ Since the City of Chicago has reported findings for “Serious Fatal” and “B
 <p>
 Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes
   
-  
 **Basis for Chart Selection**
 * Final visualization for the analysis is shown in Figure 5.
-* The color in the final-version is changed from Grey to Blue. This is done to make color scheme consistent for all visuals. In the final-version, blue color is used everywhere to show violations. 
-* After experimenting with different chart types, I have decided to use “bar” charts as they provide a clear picture in this case without creating distractions. Use of line plots in this case would create difficulty in apprehending this type of data.
-* Added interactive filter for users to select top N. Static to dynamic filter 
+* The color used for violations in the final version is changed from Grey to Blue. This is done to make color scheme consistent for all visuals. In the final-version, Blue color is used everywhere to show violations. 
+* After experimenting with different chart types, “bar” charts were used as they provide a clear picture in this case without creating distractions. Use of line plots in this case would create difficulty in apprehending the type of data used here.
+* First version showed only Top 20 violations cameras. Interactive filter is now added which provides end user an option to select top N cameras.
+* Standard Green and Red colors are used to show the reduction and increase in crashes. Reduction in accidents is a positive thing for Speed Camera Program so it is shown in Green.   
+* Percentange change in crashes is used instead of change in crashes. Percentange numbers in general provides a better picture due to normalization.
+* Figure caption is modified so that it is precise.
+* Removed summary from the first version; it does not provide useful information. 
+* Colorbar is removed from the first version and proper legends are now used.
+
 
 ## Dashboards
 I have used data from multiple sources and the granularity for both the datasets is different, so it was convenient for me to create two separate dashboards, otherwise I might have lost data in merging or joining in tableau.
