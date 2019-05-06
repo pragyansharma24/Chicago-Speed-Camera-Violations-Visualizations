@@ -115,7 +115,7 @@ The City of Chicago conducted “Safety Impact Analysis of Speed Cameras Program
 
 These findings create a positive sentiment regarding the speed camera program that it has worked and is contributing towards reducing the number of crashes near the speed camera locations. However, it is noticed that these findings were based on crash incidents reported at all speed camera locations, and they may not provide a true picture for the cameras that are reporting significantly high number of violations. To analyze this, 2-year crash data (2015-2016) was downloaded from the [Ref 6]. Crash data includes, for each Camera ID and for all camera location, number of crashes divided in categories “Total Crashes”, “Serious Fatal”, “Bicycle Pedestrian”, “Speed Related”, and “Youth Related”. Data was processes in Python, and the Python [[Script]](Crash_Violation_Data_Merge_Code.ipynb) is attached with the GitHub project. 
 
-Since the City of Chicago has reported findings for “Serious Fatal” and “Bicycle Pedestrian” type instances only, we have focused on these two categories for the present analysis. Figure 5 below shows the change in the number of “Serious Fatal” and “Bicycle Pedestrian” type crashes for speed camera locations sorted by total number of violations. Results show a mixed picture. There may be an overall decrease in crashes as reported by the City, but some of these locations are not showing any improvement in terms of reduction in crashes. Therefore, it is important for the City of Chicago to further investigate the camera locations that are recording a significantly high number of violations but, in fact, cameras there are not solving the actual purpose for which they have been installed.
+Since the City of Chicago has reported findings for “Serious Fatal” and “Bicycle Pedestrian” type instances only, we have focused on these two categories for the present analysis. Figure 5 below shows the change in the number of “Serious Fatal” and “Bicycle Pedestrian” type crashes for speed camera locations sorted by total number of violations. Results show a mixed picture. There may be an overall decrease in crashes as reported by the City, but some of these locations with high violations are not showing any improvement in terms of reduction in crashes. Therefore, it is important for the City of Chicago to further investigate the camera locations that are recording a significantly high number of violations but cameras there are not solving the actual purpose for which they have been installed.
 
 <p align="center">
 <img src="CrashesandViolations3.JPG" alt="CrashesandViolations" width="800">
@@ -136,15 +136,8 @@ Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/Ch
 * Removed summary from the first version; it does not provide useful information. 
 * Colorbar is removed from the first version and proper legends are now used.
 
-
 ## Dashboards
-I have used data from multiple sources and the granularity for both the datasets is different, so it was convenient for me to create two separate dashboards, otherwise I might have lost data in merging or joining in tableau.
 
-Dashboard 1: SpeedCameraViolations_CityofChicago 
-https://public.tableau.com/profile/pragyan.sharma#!/vizhome/SppedCameraViolations_CityofChicago_Report/Dashboard
-
-Dashboard 2: ChicagoSpeedCameraViolationsandCrashes
-https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes
 
 ## Summary and Conclusions
 1. Three final visuals are shown in Figure 1, Figure 3 and Figure 4.
