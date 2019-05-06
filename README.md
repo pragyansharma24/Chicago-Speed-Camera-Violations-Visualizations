@@ -118,10 +118,10 @@ These findings create a positive sentiment regarding the speed camera program th
 Since the City of Chicago has reported findings for “Serious Fatal” and “Bicycle Pedestrian” type instances only, we have focused on these two categories for the present analysis. Figure 5 below shows the change in the number of “Serious Fatal” and “Bicycle Pedestrian” type crashes for speed camera locations sorted by total number of violations. Results show a mixed picture. There may be an overall decrease in crashes as reported by the City, but some of these locations with high violations are not showing any improvement in terms of reduction in crashes. Therefore, it is important for the City of Chicago to further investigate the camera locations that are recording a significantly high number of violations but cameras there are not solving the actual purpose for which they have been installed.
 
 <p align="center">
-<img src="CrashesandViolations3.JPG" alt="CrashesandViolations" width="800">
+<img src="Impact_of_Camera_Enforcement.JPG" alt="Impact_of_Camera_Enforcement" width="800">
 </p>
 <p align="center">
-  <b>Figure 4: Top 10 Locations by Violations - Safety Impact Analysis using Crash Data</b>
+  <b>Figure 5: Top 10 Locations by Violations - Safety Impact Analysis using Crash Data</b>
 <p>
 Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes
   
@@ -137,6 +137,19 @@ Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/Ch
 * Colorbar is removed from the first version and proper legends are now used.
 
 ## Dashboards
+Final Dashboard
+
+<p align="center">
+<img src="Final_dashboard.JPG" alt="Final_dashboard" width="800">
+</p>
+<p align="center">
+  <b>Figure 6: Final Dashboard</b>
+<p>
+Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes
+  
+
+
+
 
 
 ## Summary and Conclusions
