@@ -139,9 +139,11 @@ Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/Ch
 ## Dashboards
 Final Dashboard
 
+
 <p align="center">
-<img src="Final_dashboard.JPG" alt="Final_dashboard" width="800">
+<img src="Final_dashboard.JPG" alt="Final Dashboard" width="800">
 </p>
+
 <p align="center">
   <b>Figure 6: Final Dashboard</b>
 <p>
