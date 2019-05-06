@@ -141,7 +141,7 @@ Final Dashboard
 
 
 <p align="center">
-<img src="Final_dashboard.JPG" alt="Final Dashboard" width="800">
+<img src="Final_dashboard.jpg" alt="Final_dashboard" width="800">
 </p>
 
 <p align="center">
@@ -149,9 +149,6 @@ Final Dashboard
 <p>
 Link for Tableau: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/ChicagoSpeedCameraViolationsandCrashes/ViolationsandCrashes
   
-
-
-
 
 
 ## Summary and Conclusions
