@@ -108,7 +108,7 @@ Since the City of Chicago has reported significant improvements in “Serious Fa
 <img src="Impact_of_Camera_Enforcement.JPG" alt="Impact_of_Camera_Enforcement" width="800">
 </p>
 <p align="center">
-  <b>Figure 5: Top 10 Locations by Violations - Safety Impact Analysis using Crash Data</b>
+  <b>Figure 5: Safety Impact Analysis using Crash Data</b>
 <p>
   
 **Basis for Chart Selection**
