@@ -130,7 +130,7 @@ Dashboard with final visualizations:
 <p align="center">
   <b>Figure 6: Final Dashboard</b>
 <p>
-Tableau Link: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/City_of_Chicago_Speed_Enforcement_Camera_Analysis/FinalDashboard?publish=yes
+Tableau Link: https://public.tableau.com/profile/pragyan.sharma#!/vizhome/City_of_Chicago_Speed_Enforcement_Camera_Analysis/FinalDashboard
 
 ## Summary and Conclusions
 1. Three visualizations for the final version are shown in Figure 1, Figure 4 and Figure 5.
